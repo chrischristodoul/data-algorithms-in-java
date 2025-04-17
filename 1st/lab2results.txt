@@ -1,0 +1,51 @@
+
+
+C:\Users\XRISTOS\Downloads>java Select 1000 5392
+number of elements = 1000
+Initial array Acopy:
+executing recursive select
+500-th smallest element in array : 500.0
+total time for recursive select = 51
+executing non-recursive select
+500-th smallest element in array : 500.0
+total time for non-recursive select = 14
+executing sorting
+500-th smallest element in array : 500.0
+total time for sorting = 5
+
+C:\Users\XRISTOS\Downloads>java Select 10000  5392
+number of elements = 10000
+Initial array Acopy:
+executing recursive select
+5000-th smallest element in array : 5000.0
+total time for recursive select = 100
+executing non-recursive select
+5000-th smallest element in array : 5000.0
+total time for non-recursive select = 17
+executing sorting
+5000-th smallest element in array : 5000.0
+total time for sorting = 3
+
+
+
+C:\Users\XRISTOS\Downloads>java Select 100000 5392
+number of elements = 100000
+Initial array Acopy:
+executing recursive select
+Exception in thread "main" java.lang.StackOverflowError
+        at Select.rselect(Select.java:75)
+        at Select.rselect(Select.java:75)
+        at Select.rselect(Select.java:75)
+        at Select.rselect(Select.java:75)
+		
+		
+
+C:\Users\XRISTOS\Downloads>java Select 1000000 5392
+number of elements = 1000000
+Initial array Acopy:
+executing recursive select
+Exception in thread "main" java.lang.StackOverflowError
+        at Select.rselect(Select.java:75)
+        at Select.rselect(Select.java:75)
+        at Select.rselect(Select.java:75)
+        at Select.rselect(Select.java:75)
